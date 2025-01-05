@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<title>Adithya A Rao | Spanning Trees</title>
-	<link rel="stylesheet" type="text/css" href="/Spanning-Trees-on-Lattice/assets/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/main.css">
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 	</script> <script type="text/x-mathjax-config">
 		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
@@ -19,7 +19,7 @@
 			<div id="content">
 				A lattice gauge theory is a formulation of quantum field theory in which spacetime is discretized into a grid, or a lattice, allowing gauge fields and particles to interact at discrete points. In this setup, continuous space and time is replaced by a finite set of points connected by links. The particles live on the lattice sites, and the gauge fields that mediate the interaction between the particles reside on the links between the lattice sites. <br><br>
 				Gauge field theories are characterized by 'local gauge invariance', which, in non-technical terms, mean that we can change the gauge fields values on individual links in certain ways without changing the overall physics. This is due to the fact that the physical content of the theory only depends on the value of the plaquette and not the individual links, therefore if we modify the link values while keeping the plaquettes same, it will not alter the physics. Here, plaquettes refer to the smallest closed loops on the lattice, formed by four links that make a square, as shown below
-				<center><img src="/Spanning-Trees-on-Lattice/assets/plaquette.png" alt="plaquette" width="400"></center>
+				<center><img src="assets/plaquette.png" alt="plaquette" width="400"></center>
 				A local gauge transformation therefore refers to modifying the links such that every plaquette value is unchanged. <br><br>
 				Observables on the lattice are simply given by certain products of links, and therefore can be represented by paths on the lattice. Physically relevant observables are usually made of continuous paths. <br>
 				A local gauge transformation will not change an observable if the path of the observable forms a closed loop. 
@@ -72,7 +72,7 @@
 				This transformation leaves the plaquette values unchanged, since the $G$s cancel with $G^{-1}$s, therefore preserving the physics of the system. <br><br>
 				Fixing the gauge simply means imposing conditions on the link elements so that all the equivalent configurations are mapped to a single 'representing' configuration. <br><br>
 
-				To read more about spanning tree gauge fixing, see <a href="/Spanning-Trees-on-Lattice/Spanning_Trees_on_a_Lattice.pdf">this report</a>.	
+				To read more about spanning tree gauge fixing, see <a href="Spanning_Trees_on_a_Lattice.pdf">this report</a>.	
 
 				<h3>Algorithm For Performing the Spanning Tree Gauge Fixing</h3>
 				<ol>
@@ -85,5 +85,5 @@
 		</center>
 	</div>
 </body>
-<script type="text/javascript" src="/Spanning-Trees-on-Lattice/assets/main.js"></script>
+<script type="text/javascript" src="assets/main.js"></script>
 </html>
